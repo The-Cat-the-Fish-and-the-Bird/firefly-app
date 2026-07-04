@@ -1,42 +1,29 @@
-# sv
+# Firefly
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+> A peer-to-peer identity experiment built with SvelteKit. No usernames, no email, no login just a cryptographic keypair generated in your browser.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.16.1 create --template minimal --types ts --install npm firefly-app
-```
+***Status: 🚧 Early prototype***
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install dependencies:
+
+```sh
+npm install
+```
+
+Start the dev server:
 
 ```sh
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Then open `http://localhost:5173` in your browser.
 
-To create a production version of your app:
+## Building
 
 ```sh
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Preview the production build with `npm run preview`.
